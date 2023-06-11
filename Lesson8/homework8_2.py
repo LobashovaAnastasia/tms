@@ -10,9 +10,7 @@ with open(
         encoding='utf-8'
 ) as file:
     file.write(str_1 + '\n')
-    file.write(str_2 + '\n')
-file.close()
-
+    file.write(str_2 + '\n')    # file.close() не нужен, т.к. файл открыт с помощью with as
 
 with open(
         'result_file.txt',
@@ -21,4 +19,3 @@ with open(
 ) as file:
     file.write(str_3 + '\n')
     file.write(str_4)
-file.close()

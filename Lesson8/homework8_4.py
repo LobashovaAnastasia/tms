@@ -5,7 +5,7 @@ with open(
     "json_file.json",
     mode="r"
 ) as file:
-    data = json.loads(file.read())
+    data = json.loads(file.read())  # Правильно: data = json.load(file) !!!
 
 with open("csv_file.csv", mode="w") as file:
     writer = csv.writer(file)
