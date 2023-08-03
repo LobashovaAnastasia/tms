@@ -7,7 +7,7 @@ build-backend = "poetry.core.masonry.api"
 name = "tms"
 version = "0.1.0"
 description = "TMS Python lessons"
-authors = ["Anastasia Lobashova <Anastasi.lobashova27@gmail.com>"]
+authors = ["Anastasia Lobashova <Anastasia.lobashova27@gmail.com>"]
 
 
 [tool.poetry.dependencies]
