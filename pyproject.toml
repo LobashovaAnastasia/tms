@@ -76,7 +76,7 @@ max-line-length = "88"
 
 
 [tool.black]
-include = "TMS"
+include = "tms"
 
 
 [tool.coverage.run]
